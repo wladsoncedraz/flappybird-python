@@ -44,8 +44,6 @@ class Bird(pygame.sprite.Sprite):
         self.rect[0] =  SCREEN_WIDTH / 2
         self.rect[1] =  SCREEN_HEIGHT / 2
 
-        print(self.rect)
-
     def update(self):
         # O modulo de 3 e utilizado para que seja feito um ciclo entre as imagens
         # e sempre haja a sequencia 1 2 3, 1 2 3...
